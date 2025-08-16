@@ -17,7 +17,6 @@
 - Deduplicates results and shows a JSON preview
 - One-click export to **CSV** or **JSON**
 - Smart filenames based on URL, e.g.:
-  - `https://www.shodan.io/domain/att.com` → `att-com.csv`
   - `https://www.shodan.io/host/35.239.225.225` → `35-239-225-225.json`
 
 ## 🧩 Install (Developer Mode)
