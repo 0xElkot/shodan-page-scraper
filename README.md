@@ -30,7 +30,6 @@
 ## 🚀 Usage
 1. Open a Shodan page like:
    - `https://www.shodan.io/host/<ip>`
-   - `https://www.shodan.io/domain/<root>`
 2. Click the extension icon → **Scrape page**.
 3. Optionally scroll the page first to ensure lazy-loaded sections (Open Ports / Subdomains) are present.
 4. Export your data with **Export CSV** or **Export JSON**.
@@ -39,8 +38,8 @@
 Each row:
 ```json
 {
-  "page": "host|domain|generic",
-  "type": "ip|port|subdomain|domain|record_host",
+  "page": "host|generic",
+  "type": "ip|port|subdomain|record_host",
   "value": "string",
   "source": "page URL",
   "meta": { "proto": "tcp|udp", "rtype": "A|CNAME|...", "target": "x.y.z.w", "role": "page_title|DNS A|..." },
