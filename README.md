@@ -3,7 +3,7 @@
   <h1>Shodan Page Scraper</h1>
   <p>Chrome (MV3) extension to scrape <code>shodan.io</code> host & domain pages and export IPs, open ports, subdomains, and DNS records.</p>
   <p><strong>Made by Mahmoud Attia (0xelkot)</strong></p>
-  <img src="assets/shodan-demo.mkv" alt="demo" width="640">
+  <img src="assets/demo.mkv" alt="demo" width="640">
 </div>
 
 ---
